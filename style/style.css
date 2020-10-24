@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+body{
 
 }
 
@@ -280,4 +284,18 @@ div .mid- img{
       display: block;
       border-bottom: 4px solid #FF3A70ed;
       width: 65px;
+  }
+
+
+
+  .advice{
+    
+      display: inline;
+      background-color: lightgray;
+      margin-left: 170px;
+      height: 30vh;
+      /* border: 2px solid green; */
+      padding: 10px 70px 10px 10px;
+      cursor: pointer;
+
   }
