@@ -1,1 +1,28 @@
-h1{background-color: aqua;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+
+.noteableHeader li{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 5px 8px 0px 5px;
+}
+.noteableHeader{
+    margin-left: 163px;
+    margin-right: 163px;
+}
+#subscribe{
+    padding-left: 35px;
+
+}
+#subscribe::after{
+    content: "";
+    border-bottom: 2px solid red;
+    width: 80px;
+    display: block;
+ 
+ }
+ 
