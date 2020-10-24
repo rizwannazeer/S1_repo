@@ -62,6 +62,7 @@
     object-fit: cover;
     float: left;
     margin-left: 160px;
+    cursor: pointer;
 }
 
 #mainheader li{
@@ -71,6 +72,7 @@
     float: right;
     padding-left: 15px;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .myHeader li{
@@ -159,7 +161,9 @@ div .mid- img{
     height: 150px;
     width: 450px;
     background-color: white;
+    cursor: pointer;
   } 
+
   
 
 /* ---------------------------------------------------banner----------------------------------- */
@@ -207,6 +211,7 @@ div .mid- img{
     padding-top: 4rem;
     margin: 0.5rem;
     font-weight: 1000;
+    cursor: pointer;
 }
 
 
@@ -214,3 +219,55 @@ div .mid- img{
 
 
 
+/* -------------------------------------------------section3------------------ */
+
+.containeron1 {
+    position: relative;
+    background-color: white;
+  }
+  .bottom-left1 {
+    position: absolute;
+    bottom: 150px;
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    margin-left: 175px;
+    cursor: pointer;
+  } 
+  
+  .img-section3{
+      width: 400px;
+      object-fit: cover;
+      margin-left: 170px;
+  }
+
+  #blackdiv{
+      width: 200px;
+      margin-left: 70px;
+      height: 35vh;
+      /* border: 2px solid red; */
+      color: white;
+      background-color: black;
+      text-align: center;
+      cursor: pointer;
+  }
+
+  /* -----------------------------------------------footer-------------------------------------- */
+
+  footer{
+    height: 50vh;
+    background-color:#2D0023;
+    padding-top: 30px;
+    color: white;
+    
+  }
+
+  footer li{
+      list-style-type: none;
+      padding-bottom: 5px;
+      cursor: pointer;
+  }
+
+  footer li i:hover{
+      color: aqua;
+  }
