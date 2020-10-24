@@ -2,13 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: cadetblue;
+
 }
 
 .noteableHeader li{
     display: inline-block;
     white-space: nowrap;
     padding: 5px 8px 0px 5px;
+}
+
+.noteableHeader li a{
+   text-decoration: none;
+   color: black;
 }
 .noteableHeader{
     margin-left: 163px;
@@ -20,9 +25,146 @@
 }
 #subscribe::after{
     content: "";
-    border-bottom: 2px solid red;
+    border-bottom: 4px solid #FF3A70ed;
     width: 80px;
     display: block;
  
  }
  
+ 
+
+
+
+/* ******************************************************SearchBar88888888888888888888888888888888888888888888 */
+
+#searchbar{
+    color: white;
+    font-size: medium;
+    display: block;
+    float:right;
+    margin-right: 270px;
+    margin-top: 30px;
+}
+
+/* ****************************************************mainheader********************************************** */
+#head2{
+    margin-top: 5px;
+    height: 18vh;
+    background-color:#2D0023;
+
+}
+
+
+
+
+#logo img{
+    height: 15vh;
+    object-fit: cover;
+    float: left;
+    margin-left: 160px;
+}
+
+#mainheader li{
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    float: right;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+
+.myHeader li{
+    margin-right: 300px;
+}
+
+
+#mainheader li:hover{
+    border-bottom: 2px solid#FF3A70;
+}
+
+#left-p{
+    margin-left: 160px;
+    display: inline-block;
+
+}
+
+#right-p{
+    float: right;
+    margin-right: 270px;
+    display: inline-block;
+}
+
+#left-right{
+    margin-top: 5px;
+}
+ 
+p i{
+    padding-right: 5px;
+}
+
+p i:hover{
+color: #FF3A70;
+}
+
+
+
+
+/* -------------------------------------section1------------------------------------- */
+
+.proFlex{
+    display: flex;
+}
+.left-{
+    margin-left: 170px;
+    width: 200px;
+
+}
+div .left- img{
+    width: 200px;
+}
+
+
+
+
+
+.mid-{
+margin-left: 15px;
+margin-right: 15px;
+}
+
+
+div .mid- img{
+    width: 600px;
+}
+
+.right-{
+
+  
+    width: 200px;
+}
+
+
+
+
+
+/* ------------------------------------------text on image--------------------------------- */
+
+ .containeron {
+    position: relative;
+    background-color: white;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    height: 150px;
+    width: 450px;
+    background-color: white;
+  } 
+  
+
+
+
+
+
+
+
