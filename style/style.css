@@ -162,6 +162,52 @@ div .mid- img{
   } 
   
 
+/* ---------------------------------------------------banner----------------------------------- */
+
+.rightt a{
+    color: black;
+}
+
+.lastdive{
+   background-color: black;
+    margin-bottom: 5rem;
+
+}
+
+
+
+.leftt{
+    float: left;
+}
+.rightt{
+    float: right;
+}
+.lastdive::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+
+
+.leftt p{
+    margin: 0px auto;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    color: white;
+    
+}
+
+.ctc-btn{
+    background-color: #FFA900;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    padding-top: 4rem;
+    margin: 0.5rem;
+    font-weight: 1000;
+}
 
 
 
