@@ -299,3 +299,30 @@ div .mid- img{
       cursor: pointer;
 
   }
+
+
+  /* -------------------------------------------------culture-------------------------- */
+
+  .culture li{
+      list-style-type: none;
+      display: inline-block;
+      padding-left: 10px;
+      
+  }
+
+  .containeronoff {
+    position: relative;
+    background-color: white;
+    margin-left: 170px;
+  }
+  .bottom-left {
+    position: absolute;
+    /* bottom: 1px; */
+    top: 470px;
+    height: 150px;
+    width: 450px;
+    background-color: white;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-bottom: 50px;
+  } 
