@@ -271,3 +271,13 @@ div .mid- img{
   footer li i:hover{
       color: aqua;
   }
+
+
+  /* ----------------------------------------------------banner2---------------------------------- */
+
+  .afterline::after{
+      content: "";
+      display: block;
+      border-bottom: 4px solid #FF3A70ed;
+      width: 65px;
+  }
