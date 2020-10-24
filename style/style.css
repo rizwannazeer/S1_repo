@@ -315,7 +315,7 @@ div .mid- img{
     background-color: white;
     margin-left: 170px;
   }
-  .bottom-left {
+  .bottom-left-culture {
     position: absolute;
     /* bottom: 1px; */
     top: 470px;
@@ -326,3 +326,9 @@ div .mid- img{
     padding-left: 10px;
     margin-bottom: 50px;
   } 
+
+  .lev{
+      width: 1000px;
+      border: 1px solid grey;
+      margin-left: 170px;
+  }
