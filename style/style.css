@@ -332,3 +332,19 @@ div .mid- img{
       border: 1px solid grey;
       margin-left: 170px;
   }
+
+
+  .contech {
+    position: relative;
+    background-color: white;
+    margin-left: 170px;
+  }
+  .bottom-left-tech {
+    position: absolute;
+    top: 370px;
+    height: 150px;
+    width: 450px;
+    background-color: white;
+    cursor: pointer;
+  
+  } 
